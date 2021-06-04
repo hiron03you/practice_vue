@@ -25,6 +25,7 @@ body {
 .command {
   font-size: 12px;
   cursor: pointer;
+  color: red;
 }
 
 #app ul {

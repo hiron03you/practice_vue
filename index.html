@@ -9,7 +9,7 @@
 <body>
   <div id="app" class="container">
     <h1>
-      <button @click="purge">Purge</button>
+      <button @click="clear">Clear</button>
       Programming List
       <span class="info">{{ remaining.length }} / {{ todos.length }} </span>
     </h1>
@@ -23,7 +23,7 @@
     </ul>
     <form @submit.prevent="addItem">
       <input type="text" v-model="newItem">
-      <input type="submit" value="決定">
+      <input type="submit" value="追加">
     </form>
   </div>
 
