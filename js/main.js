@@ -33,7 +33,7 @@
           this.todos.splice(index, 1);
         }
       },
-      purge: function(index) {
+      clear: function(index) {
         if (!confirm("完了したリストを全て消しますか?")) {
           return;
         }
